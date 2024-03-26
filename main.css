@@ -1,0 +1,35 @@
+body {
+  background-color: #e0d48a;
+}
+header {
+  background-color: #b6d629;
+  width: 70%;
+}
+header p {
+  background-color: #fff;
+}
+header > p {
+  background-color: darkgoldenrod;
+}
+header > h1[class="mainTitle"] {
+  color: rgb(130, 3, 98);
+}
+header h1 {
+  color: forestgreen;
+}
+header > h2 {
+  color: brown;
+}
+header ~ h2 {
+  color: rgb(2, 23, 42);
+}
+header + h2 {
+  color: aliceblue;
+}
+header ~ div {
+  background-color: cornflowerblue;
+}
+header + div {
+  background-color: red;
+}
+
